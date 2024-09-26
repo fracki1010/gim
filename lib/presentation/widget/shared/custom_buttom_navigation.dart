@@ -32,11 +32,11 @@ class CustomButtomNavigation extends StatelessWidget {
           label: 'Inicio',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.label_outline),
+          icon: Icon(Icons.fitness_center_outlined),
           label: 'Rutina',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.favorite_outlined),
+          icon: Icon(Icons.person),
           label: 'Perfil',
         ),
       ],

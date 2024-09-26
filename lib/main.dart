@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gimnasio_corpore_sano/config/router/app_router.dart';
+import 'package:gimnasio_corpore_sano/config/theme/app_theme.dart';
 import 'package:gimnasio_corpore_sano/presentation/views/views.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MainApp extends StatelessWidget {
       title: title,
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
+      theme: AppTheme().getTheme(),
     );
   }
 }

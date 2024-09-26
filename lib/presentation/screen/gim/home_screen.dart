@@ -10,6 +10,8 @@ class HomeScreen extends StatelessWidget {
 
   final viewRoutes = const <Widget>[
     HomeView(),
+    RoutineView(),
+    ProfileView(),
   ];
 
   @override
