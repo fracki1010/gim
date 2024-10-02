@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
 import 'package:gimnasio_corpore_sano/config/router/app_router.dart';
 import 'package:gimnasio_corpore_sano/config/theme/app_theme.dart';
-import 'package:gimnasio_corpore_sano/presentation/views/views.dart';
 
-void main() {
+void main() async {
+  //Con esto se soluciona un error mas adelante
+  WidgetsFlutterBinding.ensureInitialized();
+
+  //Firebase
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(const MyApp());
 }
 

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "950927023271",
+    "firebase_url": "https://gim-corpore-sano-default-rtdb.firebaseio.com",
+    "project_id": "gim-corpore-sano",
+    "storage_bucket": "gim-corpore-sano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950927023271:android:ca7eaeb26d39b29e1d8f82",
+        "android_client_info": {
+          "package_name": "com.corpore.gimnasio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBORINQK3LpHNZhLhPYxvmYn5PiMKPpnDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
